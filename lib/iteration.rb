@@ -18,10 +18,9 @@ while row_index < src.length do
     new_array << src[row_index][0]
   elsif src[row_index][1] > src[row_index][0]
     new_array << src[row_index][1]
-  
-  
 end
-  
+return new_array
+end
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
