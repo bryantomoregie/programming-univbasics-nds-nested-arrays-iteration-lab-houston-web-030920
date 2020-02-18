@@ -3,9 +3,7 @@ def join_ingredients(src)
   row_index = 0
 while row_index < src.length do
   element_index = 0
-    new_array << "I love #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
-    element_index += 1
-  end
+    new_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
   row_index += 1
 end 
 return new_array
